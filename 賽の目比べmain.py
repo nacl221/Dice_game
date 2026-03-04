@@ -13,12 +13,12 @@ canvas=tk.Canvas(root,width=500,height=500,bg="green") #背景の大きさと色
 canvas.place(x=0,y=0) #背景の位置
 
 #サイコロ画像をpythonで使えるようにする
-dice1=tk.PhotoImage(file="C:\\Users\\81801\\Desktop\\ソースフォルダ\\賽の目比べ\\saikoro-illust1.png")
-dice2=tk.PhotoImage(file="C:\\Users\\81801\\Desktop\\ソースフォルダ\\賽の目比べ\\saikoro-illust2.png")
-dice3=tk.PhotoImage(file="C:\\Users\\81801\\Desktop\\ソースフォルダ\\賽の目比べ\\saikoro-illust3.png")
-dice4=tk.PhotoImage(file="C:\\Users\\81801\\Desktop\\ソースフォルダ\\賽の目比べ\\saikoro-illust4.png")
-dice5=tk.PhotoImage(file="C:\\Users\\81801\\Desktop\\ソースフォルダ\\賽の目比べ\\saikoro-illust5.png")
-dice6=tk.PhotoImage(file="C:\\Users\\81801\\Desktop\\ソースフォルダ\\賽の目比べ\\saikoro-illust6.png")
+dice1=tk.PhotoImage(file="images\\saikoro-illust1.png")
+dice2=tk.PhotoImage(file="images\\saikoro-illust2.png")
+dice3=tk.PhotoImage(file="images\\saikoro-illust3.png")
+dice4=tk.PhotoImage(file="images\\saikoro-illust4.png")
+dice5=tk.PhotoImage(file="images\\saikoro-illust5.png")
+dice6=tk.PhotoImage(file="images\\saikoro-illust6.png")
 
 #tkinter内のtext設定
 TitleArea=tk.Label(text="賽の目比べ",font=("",20),fg="black")
@@ -93,3 +93,4 @@ def click_button():
     #ボタン設定
 btn=tk.Button(root,text="サイコロを振る",command=click_button) #ボタンの文字となにを起こさせるかの設定
 btn.place(x=220,y=220)  #ボタンの場所
+
